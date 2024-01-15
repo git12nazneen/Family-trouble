@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+*{
+    font-family: "Mulish", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+header{
+    background: #FFF;
+    padding: 50px 100px;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    color: #FF5400;
+    text-align: center;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 20px;
+}
+nav li .active{
+    color: #FF5400; 
+}
+nav li a{
+    color: #424247;
+}
+.nav-title{
+    color: #131318;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.nav-title span{
+    color: #FF5400; 
+}
+/* banner start */
+#banner{
+    padding: 50px 0;
+    align-items: center;
+    text-align: center;
+}
+.main-banner{
+    background-image: url('./Images/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    border-radius: 10px;
+}
+.banner-overlay{
+    background-image:
+    linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+    url('./Images/banner.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color: white;
+    border-radius: 8px ;
+}
+.travel-head{
+    color: #FFF;
+font-size: 3rem;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 100px;
+}
+.banner-p{
+    color: #FFF;
+text-align: center;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+max-width: 600px;
+margin: 0 auto;
+padding-top: 30px;
+}
+.banner-box{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 10px 10px;
+    border-radius: 10px;
+    max-width: 650px;
+    margin: 0 auto;
+}
+.banner-item{
+    background-color: white;
+    color: gray;
+    padding: 15px 35px;
+    border-radius: 10px;
+}
+.banner-item h6{
+    color: rgba(19, 19, 24, 0.50);
+text-align: center;
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.span{
+    background-color: #FF5400;
+    color: white !important;
+}
+/* banner end */
+
