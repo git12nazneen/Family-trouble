@@ -73,7 +73,7 @@ nav li a{
     background-image: url('./Images/banner.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 450px;
+    height: auto;
     border-radius: 10px;
     background-attachment: fixed;
 }

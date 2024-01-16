@@ -1,12 +1,10 @@
 @media screen and (max-width:576px){
-    /* body{
-        overflow-y: hidden;
-    } */
 .container{
     max-width: 100%;
 }
 *{
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 header,
 #footer,
