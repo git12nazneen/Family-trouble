@@ -2,6 +2,9 @@
 .container{
     max-width: 100%;
 }
+*{
+    box-sizing: border-box;
+}
 header,
 #footer{
     padding: 50px 16px;
@@ -49,7 +52,9 @@ padding-top: 30px;
     background-size: contain;
 }
 .tour-main,
-.choose-main{
+.choose-main,
+.gallery-item2,
+.gallery-item{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 25px;
@@ -86,7 +91,8 @@ margin-left: 20px;
 iframe{
     width: 300px;
 }
-.news-main{
+.news-main,
+.gallery-item3{
     display: flex;
   flex-wrap: wrap;
     
@@ -138,6 +144,12 @@ iframe{
     max-width: 300px;
     padding: 0 10px;
     margin-top: -57px;
+}
+.img1 img{
+    width: 100%;
+}
+.gallery-main{
+    max-width: 350px;
 }
 }
 
