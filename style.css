@@ -17,7 +17,10 @@ ul li{
     width: 1200px;
     margin: 0 auto;
 }
-
+#tour,
+#perfect{
+    padding: 50px 0;
+}
 nav{
     display: flex;
    justify-content: space-between;
@@ -128,9 +131,7 @@ line-height: normal;
 /* banner end */
 
 /* tour */
-#tour{
-    padding: 50px 0;
-}
+
 .tour-main{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -250,4 +251,10 @@ line-height: normal;
 .choose-item1 img{
     height: 70px ;
     width: 100px;
+}
+.video{
+    padding-top: 30px;
+}
+.empty{
+    padding-bottom: 20px;
 }
