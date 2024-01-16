@@ -2,9 +2,10 @@
 .container{
     max-width: 100%;
 }
-header{
+header,
+#footer{
     padding: 50px 16px;
-    max-width: 60%;
+    max-width: 50%;
 }
    ul > li a{
     display: none;
@@ -37,6 +38,11 @@ padding-top: 30px;
     flex-wrap: wrap;
     margin-right: 118px;
 }
+.main-deal{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+}
 .main-banner{
     width: 318px;
     /* max-width: 100%; */
@@ -64,11 +70,14 @@ margin-left: 20px;
 #choose{
     max-width: 500px;
 }
-.banner-p2, .banner-p1 {
-    max-width: 68%;
+.banner-p2{
+    max-width: 63%;
+}
+ .banner-p1 {
+    max-width: 90%;
 }
 .h2-tag {
-    margin-right: 146px;
+    margin-right: 197px;
 }
 .choose-item,
 .choose-item1{
@@ -76,6 +85,59 @@ margin-left: 20px;
 }
 iframe{
     width: 300px;
+}
+.news-main{
+    display: flex;
+  flex-wrap: wrap;
+    
+}
+.news-img img {
+    width: 59%;
+    margin-top: 30px;
+}
+.news-input {
+    width: 259px;
+}
+.btn-primary1 {
+    padding: 12px 91px;
+}
+.over {
+    left: 131px;
+   
+}
+.deal-one{
+    width: 350px;
+   height: 540px;
+}
+.deal-overlay,
+.deal-overlay1{
+    top: 30px;
+    left: 5%;
+    height: 430px;
+    width: 280px;
+}
+
+#discount{
+   padding: 50px 0; 
+}
+.blog-post{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.blog-img img {
+    width: 300px;
+}
+.blog-h1{
+    font-size: 1rem;
+}
+.blog-text h3{
+    font-size: 13px;
+}
+.blog-text{
+    max-width: 300px;
+    padding: 0 10px;
+    margin-top: -57px;
 }
 }
 
