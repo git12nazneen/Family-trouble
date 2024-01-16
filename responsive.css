@@ -32,10 +32,9 @@ header,
     gap: 25px;
    }
    .banner-p {
-    max-width: 82%;
     padding-top: 10px;
-}.travel-head{
-    color: #FFF;
+}
+.travel-head{
 font-size: 1rem;
 padding-top: 30px;
 }
@@ -56,8 +55,7 @@ padding-top: 30px;
   gap: 30px;
 }
 .main-banner{
-    width: 318px;
-    /* max-width: 100%; */
+   width: 100%;
     background-size: contain;
 }
 .tour-main,
@@ -67,67 +65,32 @@ padding-top: 30px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 25px;
-   
 }
 .tour-text{
     max-width: 330px;
     padding: 0 20px;
 }
-.tour-img{
-    width: 80%;
+
+.tour-img img{
+    width: 100%;
+    height: auto;
 }
-.tour-img img {
-    width: 297px;
-height: 342px;
-margin-left: 20px;
-}
-#choose{
-    max-width: 500px;
-}
-.banner-p2 {
-    max-width: 63%;
-    margin-left: 20px;
-}
- .banner-p1 {
-    max-width: 90%;
-}
-.h2-tag {
-    margin-right: 87px;
-}
-.choose-item,
-.choose-item1{
-    width: 290px !important;
+iframe{
+    width: 100%;
 }
 
-iframe{
-    width: 300px;
-}
-.news-main,
-.gallery-item3{
-    display: flex;
-  flex-wrap: wrap;
-    
-}
-.news-main {
-    max-width: 380px;
-    padding: 0px 13px;
-}
-.news-img img {
-    width: 100%;
-    margin-top: 30px;
-}
-.news-input {
-    width: 275px;
-}
 .btn-primary1 {
-    padding: 12px 54px;
+    padding: 12px 85px;
+   margin: 0 auto;
 }
-.over {
-    left: 105px;
-   
+.over{
+    height: 80px ;
+    width: 60%;
+    bottom: 140px;
+    left: 115px;
 }
 .deal-one{
-    width: 319px;
+   width: 100%;
    height: 540px;
 }
 .deal-overlay,
@@ -135,11 +98,7 @@ iframe{
     top: 30px;
     left: 5%;
     height: 430px;
-    width: 280px;
-}
-
-#discount{
-   padding: 50px 0; 
+    width: 90%;
 }
 .blog-post{
     display: flex;
@@ -147,7 +106,7 @@ iframe{
     gap: 5px;
 }
 .blog-img img {
-    width: 300px;
+  width: 100%;
 }
 .blog-h1{
     font-size: 1rem;
@@ -164,11 +123,34 @@ iframe{
     width: 100%;
 }
 .gallery-main{
-    max-width: 350px;
+    width: 100%;
 }
 .canter {
-    margin-right: 220px;
+   text-align: center;
 }
+.img6{
+    width: 100%;
+    height: auto;
+}  
+.news-main,
+.gallery-item3{
+    display: flex;
+  flex-wrap: wrap;
+    
+}
+.grid{
+    display: grid;
+    justify-content: center;
+   }
+    .grid_col_6{
+      grid-column: span 12;
+    }
+    .grid_col_12{
+      grid-column: span 12;
+    }
+    .cols{
+        width: 100%
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:960px){
