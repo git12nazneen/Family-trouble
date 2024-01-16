@@ -1,4 +1,7 @@
 @media screen and (max-width:576px){
+    /* body{
+        overflow-y: hidden;
+    } */
 .container{
     max-width: 100%;
 }
@@ -6,9 +9,16 @@
     box-sizing: border-box;
 }
 header,
-#footer{
-    padding: 50px 16px;
-    max-width: 50%;
+#footer,
+#choose,
+#tour,
+#gallery,
+#discount,
+.video,
+.main-deal,
+.blog-img{
+    padding: 20px 16px;
+    max-width: 100%;
 }
    ul > li a{
     display: none;
@@ -38,8 +48,9 @@ padding-top: 30px;
 .choose-main1{
     padding-top: 20px !important;
     display: flex;
-    flex-wrap: wrap;
-    margin-right: 118px;
+    justify-content:flex-start ;
+    align-content: flex-start !important;
+    margin-right: 58px;
 }
 .main-deal{
   display: grid;
@@ -75,19 +86,21 @@ margin-left: 20px;
 #choose{
     max-width: 500px;
 }
-.banner-p2{
+.banner-p2 {
     max-width: 63%;
+    margin-left: 20px;
 }
  .banner-p1 {
     max-width: 90%;
 }
 .h2-tag {
-    margin-right: 197px;
+    margin-right: 87px;
 }
 .choose-item,
 .choose-item1{
     width: 290px !important;
 }
+
 iframe{
     width: 300px;
 }
@@ -97,22 +110,26 @@ iframe{
   flex-wrap: wrap;
     
 }
+.news-main {
+    max-width: 380px;
+    padding: 0px 13px;
+}
 .news-img img {
-    width: 59%;
+    width: 100%;
     margin-top: 30px;
 }
 .news-input {
-    width: 259px;
+    width: 275px;
 }
 .btn-primary1 {
-    padding: 12px 91px;
+    padding: 12px 54px;
 }
 .over {
-    left: 131px;
+    left: 105px;
    
 }
 .deal-one{
-    width: 350px;
+    width: 319px;
    height: 540px;
 }
 .deal-overlay,
@@ -151,9 +168,18 @@ iframe{
 .gallery-main{
     max-width: 350px;
 }
+.canter {
+    margin-right: 220px;
+}
 }
 
 @media screen and (min-width:576px) and (max-width:960px){
+    .news-main,
+.gallery-item3{
+    display: flex;
+  flex-wrap: wrap;
+    
+}
 }
 
 
