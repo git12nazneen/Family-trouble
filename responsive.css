@@ -1,12 +1,17 @@
 @media screen and (max-width:576px){
-    nav{
-       display: flex;
-       justify-content: space-between;
-    }
+.container{
+    max-width: 100%;
+}
+header{
+    padding: 50px 16px;
+    max-width: 60%;
+}
    ul > li a{
     display: none;
    }
-   .nav-title{
+   .nav-title,
+   .h2-tag,
+   .h22-tag{
     font-size: 1rem;
    }
    .banner-box{
@@ -26,13 +31,50 @@ padding-top: 30px;
     width: 300px;
     margin: 0 auto;
 }
+.choose-main1{
+    padding-top: 20px !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 118px;
+}
 .main-banner{
-    width: 390px;
+    width: 318px;
     /* max-width: 100%; */
     background-size: contain;
 }
+.tour-main,
+.choose-main{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+   
 }
-
+.tour-text{
+    max-width: 330px;
+    padding: 0 20px;
+}
+.tour-img{
+    width: 80%;
+}
+.tour-img img {
+    width: 297px;
+height: 342px;
+margin-left: 20px;
+}
+#choose{
+    max-width: 500px;
+}
+.banner-p2, .banner-p1 {
+    max-width: 68%;
+}
+.h2-tag {
+    margin-right: 146px;
+}
+.choose-item,
+.choose-item1{
+    width: 290px !important;
+}
+}
 
 @media screen and (min-width:576px) and (max-width:960px){
 }

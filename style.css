@@ -25,7 +25,7 @@ nav{
 }
 header{
     background: #FFF;
-    padding: 50px 100px;
+    padding: 50px 80px;
 }
 nav > ul{
     display: flex;
@@ -67,6 +67,7 @@ nav li a{
     background-size: cover;
     height: 450px;
     border-radius: 10px;
+    background-attachment: fixed;
 }
 .banner-overlay{
     background-image:
@@ -126,3 +127,127 @@ line-height: normal;
 }
 /* banner end */
 
+/* tour */
+#tour{
+    padding: 50px 0;
+}
+.tour-main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+.banner-p1{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+padding-top: 15px;
+}
+.banner-p2{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+padding: 25px 0;
+}
+.btn-primary{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #FF5400;
+    color: white;
+    font-size: 1rem;
+    border: none;
+}
+/* gallery */
+.h2-tag{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.h22-tag{
+    color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.gallery-head{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.center{
+    text-align: center;
+}
+.gallery-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.gallery-item2{
+    display: grid;
+    grid-template-columns: 300px 500px 300px;
+    gap: 30px;
+
+}
+.gallery-item2 img{
+    /* padding-left: 10px; */
+}
+.img3{
+    padding-right: 40px;
+}
+.img4{}
+.img5{}
+.gallery-item3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+}
+.choose-main{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 10px;
+   
+}
+.choose-item{
+    margin: 10px 20px;
+    padding: 20px 20px;
+    border: 1px solid rgb(184, 179, 179);
+    border-radius: 10px;
+}
+.gray{
+    background: rgba(251, 181, 99, 0.05);
+}
+.water{
+    background: rgba(41, 206, 246, 0.05);
+}
+.choose-main1{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   
+}
+.choose-item1{
+    max-width: 550px;
+    margin: 10px 20px;
+    padding: 20px 20px;
+    border: 1px solid rgb(184, 179, 179);
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.choose-item img{
+    height: 70px ;
+    width: 100px;
+
+}
+.choose-item1 img{
+    height: 70px ;
+    width: 100px;
+}
